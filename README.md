@@ -197,4 +197,4 @@ Scripts here keep their original module names; the submission set prefixes them 
 
 ## Citing
 
-Please cite the paper. Add a LICENSE before making the repository public — journals usually expect MIT or BSD-3-Clause for analysis code.
+Please cite the paper. This code is released under the MIT License; see `LICENSE`.
