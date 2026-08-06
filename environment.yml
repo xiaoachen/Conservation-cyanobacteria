@@ -1,0 +1,15 @@
+# Two environments were used. `cyano-mrcr` drives UCSF ChimeraX and reads mmCIF models;
+# `cyano-analysis` runs the metabolic models and every statistical analysis.
+# Create whichever the script you want to run needs (see README.md).
+name: cyano-analysis
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.12
+  - numpy=2.3.3
+  - pandas=2.3.3
+  - scipy=1.16.2
+  - biopython=1.85
+  - cobra=0.31.1
+  - matplotlib=3.10.7
+  - seaborn=0.13.2
+  - openpyxl=3.1.5

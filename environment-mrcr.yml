@@ -1,0 +1,14 @@
+# Environment for the structural stages (03_mr_cr, 04_structural_partition, 05_functional_sites,
+# 06_residue_energetics, 07_positional_geometry). UCSF ChimeraX 1.7.1 and FoldX 5 are licensed
+# separately and must be installed by hand; see README.md.
+name: cyano-mrcr
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.10
+  - numpy=2.2.6
+  - pandas=2.3.3
+  - scipy=1.15.2
+  - biopython=1.85
+  - gemmi=0.7.4
+  - matplotlib=3.10.6
+  - seaborn=0.13.2
